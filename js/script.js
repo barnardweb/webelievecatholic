@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#navbarload").load('Navbar.html')
+    $("#navbarload").load('navbar.html')
 });
 
 console.time('cache');
