@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+  /*Format Content of the page*/
+  .Title h1{
+    text-align: center;
+    font-family: inherit;
+    font-size: 32px;
+    top: 0px;
+    z-index: -1;
+  }
+  .RCIA_intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .Content{
+    position: relative;
+    font-family: inherit;
+    left: 200px;
+    top: 8px;
+    width: 70%;
+    padding-bottom: 100px;
+    z-index: -1;
+  }
+  
+  .Content h1, h2, h3, h4 {
+    font-size: 16px;
+  }

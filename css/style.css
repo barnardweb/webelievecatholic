@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ 
+
+.main-logo {
+    font-family: 'PT Serif', serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(rgb(2, 2, 56, 1),rgb(7, 16, 112, 0));
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 8px;
+    z-index: 101;
+    top: 8px;
+    position:absolute;
+    font-size: 40px;
+}
+
+.main-logo p1{
+    font-size: 14px;
+}
+
+.header-image{
+    z-index: 0;
+}
+
+.vertical {
+    border-left: 150px solid rgb(49, 48, 84);
+    top: 8px;
+    height: 100%;
+    position:fixed;
+    left: 8px;
+    z-index: -10;
+}
+
+/* SUBNAVIGATION DESGIN SECTION*/
+/* The navigation menu */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(2, 2, 56);
+    z-index: 1;
+  }
+  
+  /* Navigation links */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 1;
+}
+  
+
+  /* The subnavigation menu */
+.subnav {
+    float: left;
+    overflow: hidden;
+    z-index: 1;
+}
+  
+  /* Subnav button */
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+  /* Add a background color to navigation links on hover */
+.navbar a:hover, .navbarvert a:hover, .subnav:hover .subnavbtn {
+    background-color: white;
+    color:rgb(2, 2, 56)
+}
+  
+  /* Style the subnav content - positioned absolute */
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 8px;
+    background-color: rgb(2, 2, 56);
+    width: inherit;
+    z-index: 1;
+}
+
+  /* Style the subnav links */
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+}
+  
+  /* Add a grey background color on hover */
+.subnav-content a:hover {
+    background-color: #eee;
+    color: rgb(2, 2, 56);
+}
+
+/* Formatting the RCIA buttons*/
+/* Format the button color*/
+.subnav_believe .subnavbtn_believe {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    }
+    
+.subnav_mass .subnavbtn_mass{
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+}
+
+.subnav_teach .subnavbtn_teach{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.subnav_life .subnavbtn_life{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+/* Format RCIA content */
+.subnav_believe-content, .subnav_mass-content, .subnav_teach-content, .subnav_life-content {
+    display: none;
+    position: relative;
+    left: 0;
+    background-color: rgb(2, 2, 56);
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+    /* Style the subnav links */
+
+.subnav_believe-content, .subnav_mass-content, .subnav_teach-content, .subnav_life-content a {
+        float: left;
+        color: white;
+        text-decoration: none;
+}
+
+      /* Add a background color to navigation links on hover */
+.navbar a:hover, .navbarvert a:hover, .subnav:hover, .subnav_believe:hover .subnavbtn_believe {
+    background-color: white;
+    color: rgb(2, 2, 56);
+}
+
+.subnav_mass:hover .subnavbtn_mass {
+    background-color: white;
+    color: rgb(2, 2, 56);
+}
+.subnav_teach:hover .subnavbtn_teach {
+    background-color: white;
+    color: rgb(2, 2, 56);
+}
+.subnav_life:hover .subnavbtn_life {
+    background-color: white;
+    color: rgb(2, 2, 56);
+}
+
+.subnav_believe-content a:hover {
+    background-color: #eee;
+    color: rgb(2, 2, 56);
+}
+
+
+  /* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+    display: block
+}
+
+.subnav_believe:hover .subnav_believe-content {
+    display: block;  
+}
+.subnav_mass:hover .subnav_mass-content {
+    display: block;  
+}
+.subnav_teach:hover .subnav_teach-content {
+    display: block;  
+}
+.subnav_life:hover .subnav_life-content {
+    display: block;  
+}
+
+/*Vertical Navbar styling*/
+
+.navbarvert {
+    position: absolute;
+}
+
+.navbarvert a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 0;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    z-index: 0;
+    
+  }
+
+
+  .li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    z-index: 0;
+  }
+  
+  /* Change the link color on hover */
+  .li a:hover {
+    background-color: white;
+    color: rgb(2, 2, 56);
+  }
+
