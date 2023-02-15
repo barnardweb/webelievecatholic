@@ -14,6 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    object-fit: cover;
   }
   .Content{
     position: relative;
@@ -29,19 +30,7 @@
     font-size: 16px;
   }
 
- .YoutubeMass {
-    text-align:center;
-    width:100%;
-    padding-bottom: 20px;
-  }
-
-  .YoutubeBapt {
-    text-align:center;
-    width:100%;
-    padding-bottom: 20px;
-  }
-
-  .YoutubeConf {
+  .YoutubeClip {
     text-align:center;
     width:100%;
     padding-bottom: 20px;
